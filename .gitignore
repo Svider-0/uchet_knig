@@ -1,0 +1,43 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+
+# === Виртуальное окружение ===
+venv/
+ENV/
+.venv/
+
+# === IDE / Редакторы ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# === Окружение и логи ===
+.env
+.env.*
+*.log
+logs/
+
+# === SQLite / Базы данных (ВАЖНО!) ===
+*.db
+*.sqlite
+*.sqlite3
+data/*.db
+data/*.sqlite3
+
+# === Тесты и покрытие ===
+.pytest_cache/
+htmlcov/
+.coverage
+
+# === OS / System ===
+.DS_Store
+Thumbs.db
+desktop.ini
