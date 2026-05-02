@@ -40,8 +40,3 @@ python -m src.main read 1
 # Удалить книгу
 python -m src.main delete 1
 
-# Запуск тестов с подробным выводом
-pytest tests/ -v
-
-# Проверка стиля кода
-flake8 src/ tests/ --max-line-length=100
